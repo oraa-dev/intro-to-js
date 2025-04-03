@@ -28,8 +28,9 @@ var averageMarks = ( totalMarksInAllSubject / totalSubject) ;
 
 console.log (averageMarks.toFixed(2)) ;
 
-// Task 3 //
 
+
+// Task 3 //
 var givenNumber = 119 ; 
 
 var divisor = 5 ;
@@ -37,3 +38,18 @@ var divisor = 5 ;
 var quotient = ( givenNumber % divisor );
 
 console.log(quotient);
+
+
+// Task 4 //
+var a = isNaN(11);
+console.log(a) ;
+
+var b = isNaN(2-10);
+console.log(b) ;
+
+var c = isNaN('zack knight');
+console.log(c)
+
+
+// The function isNaN() stands for "is Not a Number." It checks whether a value is not a valid number. If the value is not a number, it returns true. ✅
+// If the value is a number, it returns false. ❌ //
