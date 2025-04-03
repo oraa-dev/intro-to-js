@@ -27,3 +27,13 @@ var totalSubject = 5 ;
 var averageMarks = ( totalMarksInAllSubject / totalSubject) ;
 
 console.log (averageMarks.toFixed(2)) ;
+
+// Task 3 //
+
+var givenNumber = 119 ; 
+
+var divisor = 5 ;
+
+var quotient = ( givenNumber % divisor );
+
+console.log(quotient);
